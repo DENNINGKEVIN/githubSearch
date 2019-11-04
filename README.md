@@ -8,6 +8,7 @@ Denning Kevin Mulama
 ## Screenshot
 
 ![](Screenshot1.png)
+![](Screenshot2.png)
 
 ## Development server
 
