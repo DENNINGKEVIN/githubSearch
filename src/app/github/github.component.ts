@@ -32,7 +32,7 @@ export class GithubComponent implements OnInit {
   constructor(public repoHttpService:RepoHttpServiceService, public userHttpService:UserHttpServiceService,private router: Router) { }
 
 	ngOnInit() {
-		this.search("Frank");
+		this.search("kevin");
 		
 	}
 
