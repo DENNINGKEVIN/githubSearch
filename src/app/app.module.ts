@@ -8,6 +8,8 @@ import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { SearchFormComponent } from './search-form/search-form.component';
+import { HighlightDirective } from './highlight.directive';
+import { TimeCountPipe } from './time-count.pipe';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { SearchFormComponent } from './search-form/search-form.component';
     HomeComponent,
     NavbarComponent,
     NotFoundComponent,
-    SearchFormComponent
+    SearchFormComponent,
+    HighlightDirective,
+    TimeCountPipe
   ],
   imports: [
     BrowserModule,
